@@ -1,11 +1,11 @@
-import Stories from "./Stories";
+import Left from "./Left";
+import Sidebar from "./Sidebar";
 
 export default function Body(){
     return(
         <div class="corpo">
-            <div class="esquerda">
-                <Stories />
-            </div>
+            <Left />
+            <Sidebar />
         </div>
     );
 }
