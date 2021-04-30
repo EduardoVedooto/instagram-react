@@ -13,7 +13,7 @@ export default function Footer(props){
             </div>
 
             <div class="curtidas">
-                <img src={`assets/img/${props.likesHighlight}.svg`} />
+                <img src={`assets/img/${props.likesHighlight}.svg`} alt="Profile picture"/>
                 <div class="texto">
                     Curtido por <strong>{props.likesHighlight}</strong> e <strong>outras {props.likesNumber} pessoas</strong>
                 </div>

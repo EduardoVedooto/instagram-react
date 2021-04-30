@@ -2,7 +2,7 @@ export default function Suggestion(props) {
     return(
         <div class="sugestao">
             <div class="usuario">
-                <img src={`assets/img/${props.username}.svg`} />
+                <img src={`assets/img/${props.username}.svg`} alt="Profile picture"/>
                 <div class="texto">
                     <div class="nome">{props.username}</div>
                     <div class="razao">{props.info}</div>

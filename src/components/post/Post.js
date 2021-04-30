@@ -7,7 +7,7 @@ export default function Post(props) {
             <Header username={props.username}/>
 
             <div class="conteudo">
-                <img src={props.content} />
+                <img src={props.content} alt="Post content"/>
             </div>
 
             <Footer 

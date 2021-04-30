@@ -6,7 +6,7 @@ export default function LogoMobile() {
             </div>
 
             <div class="instagram-mobile">
-                <img src="assets/img/logo.png" />
+                <img src="assets/img/logo.png" alt="Logo" />
             </div>
         </>
     );
