@@ -2,7 +2,7 @@ export default function Header(props) {
     return(
         <div class="topo">
             <div class="usuario">
-                <img src={`assets/img/${props.username}.svg`} alt="Profile picture"/>
+                <img src={`assets/img/${props.username}.svg`} alt="Profile"/>
                 {props.username}
             </div>
             <div class="acoes">
